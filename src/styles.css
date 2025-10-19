@@ -1,3 +1,7 @@
+body {
+  background-color: cornflowerblue;
+}
+
 .App {
   font-family: sans-serif;
   text-align: center;
@@ -9,7 +13,7 @@ input {
   font-size: 16px;
   border-radius: 3px;
 }
-input[type='text'] {
+input[type="text"] {
   width: 200px;
 }
 
@@ -36,7 +40,7 @@ input[type='text'] {
   margin: 10px 0;
   font-size: 60px;
   height: 90px;
-  font-family: 'Permanent Marker', Arial, Helvetica, sans-serif;
+  font-family: "Permanent Marker", Arial, Helvetica, sans-serif;
 }
 .name-tag__delete {
   position: absolute;
