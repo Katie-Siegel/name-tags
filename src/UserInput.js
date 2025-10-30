@@ -18,6 +18,7 @@ class UserInput extends Component {
     return (
       <form onSubmit={this.handleSubmit}>
         <input
+          aria-label="name input"
           type="text"
           placeholder="Add a new name here..."
           value={this.state.name}
