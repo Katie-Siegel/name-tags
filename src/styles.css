@@ -12,6 +12,7 @@ input {
   font-size: 16px;
   border-radius: 3px;
 }
+
 input[type="text"] {
   width: 200px;
 }
@@ -25,15 +26,18 @@ input[type="text"] {
   display: inline-block;
   position: relative;
 }
+
 .title {
   color: white;
   margin: 0;
   font-size: 40px;
 }
+
 .subtitle {
   color: white;
   margin: 0;
 }
+
 .name {
   background-color: white;
   margin: 10px 0;
@@ -41,13 +45,16 @@ input[type="text"] {
   height: 90px;
   font-family: "Permanent Marker", Arial, Helvetica, sans-serif;
 }
+
 .name-tag__delete {
   position: absolute;
   padding: 5px 8px;
   top: 5px;
   right: 5px;
   cursor: pointer;
+  color: white;
 }
+
 .name-tag__delete:hover {
   background-color: rgba(0, 0, 0, 0.2);
   border-radius: 50%;
